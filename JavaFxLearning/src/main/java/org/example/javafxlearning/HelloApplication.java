@@ -12,7 +12,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) {
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("Scene1.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/org/example/javafxlearning/Image.fxml"));
             Scene scene = new Scene(root);
             stage.setTitle("JavaFX Scene Switching");
             stage.setScene(scene);
